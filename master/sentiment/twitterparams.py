@@ -1,0 +1,4 @@
+OAuthConsKey = ''
+OAuthConsSecret = ''
+OAuthToken = ''
+OAuthTokenSecret = ''
