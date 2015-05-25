@@ -8,8 +8,9 @@ https://gist.github.com/BhavdeepSethi/50f41c6db7b02e2ca94f
 Change the parameter of count(originally it is 500), set the key words to be love. Next put the data to my bucket.
 #
 2. Run EMR, the reason it fails is
+  #
   i.because I don’t have access the the file in tutorial. So I use “$aws s3 cp ”to retrieve files.
+  #
   ii. The mapper is not corrected.
-
 #
 3. Use the mapper program found on github, s3 copy the files to my own bucket. It success. We run the EMR on four collections. With more than 20000 entries, the key word is love.
